@@ -33,7 +33,7 @@
       <div class="row"style="padding-left: 400px;">
           <h4 style="text-align:center">جـمـاعـة تـامـنـصـورت </h4>
       </div>
-      <div class="row input-container">
+      <div class="row input-container" style="margin-top: -10px;">
           <div class="col-xs-12">
             <div class="styled-input wide">
               <input type="text" required />
@@ -58,8 +58,26 @@
               <label>الرسالة</label>
             </div>
           </div>
+          <div class="col-xs-12" style="margin-left: 140px;">
+          <div class="captcha">
+            <div class="spinner">
+              <label>
+                <input type="checkbox" onclick="$(this).attr('disabled','disabled');">
+                <span class="checkmark"><span>&nbsp;</span></span>
+              </label>
+            </div>
+            <div class="text">
+              I'm not a robot
+            </div>
+            <div class="logo">
+              <img src="https://forum.nox.tv/core/index.php?media/9-recaptcha-png/"/>
+              <p>reCAPTCHA</p>
+              <small>Privacy - Terms</small>
+            </div>
+          </div>
+          </div>
           <div class="col-xs-12">
-            <div class="btn-lrg submit-btn">أرسل</div>
+            <div class="btn-lrg submit-btn" style="margin-left: 180px; padding-left: 90px; padding-right: 90px; margin-top: 10px;">أرسل</div>
           </div>
       </div>
     </div>
