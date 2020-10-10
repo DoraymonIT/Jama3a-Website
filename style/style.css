@@ -1,79 +1,73 @@
 body {
- font-family: 'Cairo', sans-serif;
+  font-family: "Cairo", sans-serif;
 }
 html {
   scroll-behavior: smooth;
 }
-.navbar{
-  box-shadow: 0 3px 6px 0 rgba(50,50,50,.3);
+.navbar {
+  box-shadow: 0 3px 6px 0 rgba(50, 50, 50, 0.3);
 }
-.navbar-toggler:focus{
+.navbar-toggler:focus {
   outline: 1px none;
 }
 a {
   color: #212529;
 }
-#image{
+#image {
   position: relative;
- 
 }
-.d-block{
-  height:600px;
+.d-block {
+  height: 600px;
   widows: 100%;
 }
 #definition {
   position: absolute;
   right: 500px;
   padding-top: 70px;
-background-color:black;
-color:white;
-opacity:0.9;
+  background-color: black;
+  color: white;
+  opacity: 0.9;
 }
 a:hover {
   color: #212529;
   text-decoration: none;
- }
- /* Hover Animation */
- .cool-link {
+}
+/* Hover Animation */
+.cool-link {
   display: inline-block;
   /* color: cadetblue; */
   text-decoration: none;
   font-weight: bold;
 }
-.padd{
-  padding-right:26px;
+.padd {
+  padding-right: 26px;
   font-size: 20px;
 }
-.ho{
+.ho {
   background-color: #d0b5b5;
   opacity: 0.8;
   /* font-weight: bold; */
   font-size: larger;
-
 }
-.carding{
+.carding {
   background: url(../images/bla.jpg) no-repeat;
 }
-.my-card{
+.my-card {
   background-color: whitesmoke;
   padding: 40px;
   box-shadow: 2px 2px 4px 1px #d4d4d4;
   text-align: center;
- 
 }
-.test0{
-
+.test0 {
   background: url(../images/back2.jpg) no-repeat;
 
   background-position-x: center;
 }
-.test{
+.test {
   background: url(../images/back.jpg) no-repeat;
-
 }
-.test2{
+.test2 {
   background: url(../images/back2.jpg) no-repeat;
-
 }
 .cool-link::after {
   content: "";
@@ -89,7 +83,7 @@ a:hover {
   transition: width 0.3s;
 }
 /* Loading CSS */
- .page {
+.page {
   display: none;
 }
 
@@ -107,58 +101,76 @@ a:hover {
   background-position: center;
 }
 
-.fa-facebook{
-  background-color: #3b5998;
+.fa-facebook {
+  background-color: #7b7b7b;
   padding: 8px;
   color: white;
   border-radius: 50%;
   padding-left: 12px;
   padding-right: 12px;
-  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+ 
 }
-.fa-youtube{
-  background-color: #c4302b;
+.fa-youtube {
+  background-color: #7b7b7b;
   padding: 8px;
   color: white;
   border-radius: 50%;
-  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+
 }
-.fa-twitter{
-background-color: #00acee ;
+.fa-twitter {
+  background-color: #7b7b7b;
   padding: 8px;
   color: white;
   border-radius: 50%;
-  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+
 }
-.fa-instagram{
-  background: #d6249f;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+.fa-instagram {
+  background: #7b7b7b;
   padding: 8px;
   color: white;
   border-radius: 50%;
-  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+ 
 }
 .back-to-top {
   position: fixed;
   bottom: 25px;
   right: 25px;
   border-radius: 50%;
-    padding-left: 12px;
-    padding-right: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
   padding-top: 10px;
-padding-bottom:10px;
- box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  padding-bottom: 10px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
 }
-.animate:hover{
+.animate:hover {
   text-decoration: underline;
 }
-.dash{
+.dash {
   background-color: brown;
-    padding: 10px;
-    color: white;
-    border-radius: 1px;
+  padding: 10px;
+  color: white;
+  border-radius: 1px;
 }
-.dash:hover{
-  box-shadow: 2px 2px 10px rgba(0,0,0,.75);
+.dash:hover {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+  border-left: 10px solid brown;
+  background-color: white;
+  color: brown;
+  border-right: 10px solid brown;
 }
 
+.nav-pills .nav-link1.active,
+.nav-pills .show > .nav-link1 {
+  color: #fff;
+  background-color: #d84100;
+}
+.nav-link1 {
+  margin-top: 10px;
+}
+.nav-link1:hover {
+  color: #fff;
+  background-color: #d84100;
+}
+.fade {
+  padding: 50px;
+}
